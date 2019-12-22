@@ -6,7 +6,7 @@ xanadu-lang compiler system
 ```
 git clone --recursive https://github.com/sparverius/xatscc.git
 cd xatscc
-sh build.sh
+make
 ```
 
 ### Usage
