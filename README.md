@@ -12,9 +12,9 @@ make
 ### Usage
 
 ```
-./bin/xatsopt -d TEST/sieve.dats
-./bin/xinterp -d TEST/sieve.dats
-./bin/xjsonize -d TEST/sieve.dats
+./bin/xatsopt -d TEST/map.dats
+./bin/xinterp -d TEST/map.dats
+./bin/xjsonize -d TEST/map.dats
 ```
 
 ### Prerequisites
