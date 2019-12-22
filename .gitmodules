@@ -1,0 +1,12 @@
+[submodule "xjsonize"]
+	path = xjsonize
+	url = git@github.com:sparverius/xjsonize.git
+	branch = xatscc
+[submodule "xanadu"]
+	path = xanadu
+	url = git@github.com:sparverius/xanadu.git
+	branch = xatscc
+[submodule "xinterp"]
+	path = xinterp
+	url = git@github.com:sparverius/xinterp.git
+	branch = xatscc
