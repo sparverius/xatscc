@@ -1,0 +1,1335 @@
+{
+ "d2eclist": [
+  {
+   "d2ecl": {
+    "D2Cdatatype": {
+     "d1ecl": {
+      "D1Cdatatype": {
+       "knd": {
+        "token": {
+         "tnode": {
+          "DATATYPE": {
+           "int": 0
+          }
+         }
+        }
+       },
+       "d1atypelst": [
+        {
+         "d1atype": {
+          "D1ATYPE": {
+           "token": {
+            "tnode": {
+             "IDENT_alp": "optn"
+            }
+           },
+           "t1marglst": [
+            {
+             "t1marg": {
+              "T1MARGlist": {
+               "t1arglst": [
+                {
+                 "t1arg": {
+                  "T1ARGsome": {
+                   "sort1": {
+                    "S1Tapp1": {
+                     "sort1": {
+                      "S1Tid": {
+                       "symbol": "type"
+                      }
+                     }
+                    }
+                   },
+                   "tokenopt": {
+                    "token": {
+                     "tnode": {
+                      "IDENT_alp": "a"
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            }
+           ],
+           "sort1opt": {},
+           "d1atconlst": [
+            {
+             "d1atcon": {
+              "D1ATCON": {
+               "s1unilst": [],
+               "token": {
+                "tnode": {
+                 "IDENT_alp": "none"
+                }
+               },
+               "s1explst": [
+                {
+                 "s1exp": {
+                  "S1Elist": {
+                   "s1explst": [
+                    {
+                     "s1exp": {
+                      "S1Eid": {
+                       "symbol": "a"
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               ],
+               "s1expopt": {
+                "s1exp": {
+                 "S1Elist": {
+                  "s1explst": []
+                 }
+                }
+               }
+              }
+             }
+            },
+            {
+             "d1atcon": {
+              "D1ATCON": {
+               "s1unilst": [],
+               "token": {
+                "tnode": {
+                 "IDENT_alp": "some"
+                }
+               },
+               "s1explst": [
+                {
+                 "s1exp": {
+                  "S1Elist": {
+                   "s1explst": [
+                    {
+                     "s1exp": {
+                      "S1Eid": {
+                       "symbol": "a"
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               ],
+               "s1expopt": {
+                "s1exp": {
+                 "S1Elist": {
+                  "s1explst": [
+                   {
+                    "s1exp": {
+                     "S1Eid": {
+                      "symbol": "a"
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             }
+            }
+           ]
+          }
+         }
+        }
+       ],
+       "wd1eclseq": {
+        "WD1CSnone": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq2arglst": [
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "a",
+           "stamp": "363"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "b",
+           "stamp": "364"
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "f2undeclist": [
+      {
+       "f2undecl": {
+        "F2UNDECL": {
+         "d2var": {
+          "symbol": "map_list",
+          "stamp": "0"
+         },
+         "d2cst": {
+          "symbol": "map_list",
+          "stamp": "112"
+         },
+         "f2arglst": [
+          {
+           "f2arg": {
+            "F2ARGsome_dyn": {
+             "npf": "-1",
+             "d2patlst": [
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "xs",
+                    "stamp": "1"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Eapp": {
+                   "s2exp": {
+                    "S2Ecst": {
+                     "s2cst": {
+                      "symbol": "list",
+                      "stamp": "145"
+                     }
+                    }
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "363"
+                       }
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "f0",
+                    "stamp": "2"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Efun": {
+                   "funclo2": {
+                    "FC2fun": {}
+                   },
+                   "npf": {
+                    "int": -1
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "363"
+                       }
+                      }
+                     }
+                    }
+                   ],
+                   "s2exp": {
+                    "S2Evar": {
+                     "s2var": {
+                      "symbol": "b",
+                      "stamp": "364"
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "effs2expopt": {
+          "EFFS2EXPsome": {
+           "s2exp": {
+            "S2Eapp": {
+             "s2exp": {
+              "S2Ecst": {
+               "s2cst": {
+                "symbol": "list",
+                "stamp": "145"
+               }
+              }
+             },
+             "s2explst": [
+              {
+               "s2exp": {
+                "S2Evar": {
+                 "s2var": {
+                  "symbol": "b",
+                  "stamp": "364"
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "d2expopt": {
+          "d2exp": {
+           "D2Ecase": {
+            "int": 1,
+            "d2exp": {
+             "D2Evar": {
+              "d2var": {
+               "symbol": "xs",
+               "stamp": "1"
+              }
+             }
+            },
+            "d2claulst": [
+             {
+              "d2clau": {
+               "D2CLAUexp": {
+                "d2gpat": {
+                 "D2GPATpat": {
+                  "d2pat": {
+                   "D2Pdapp": {
+                    "d2pat": {
+                     "D2Pcon1": {
+                      "d2con": {
+                       "symbol": "list_nil",
+                       "stamp": "6"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d2patlst": []
+                   }
+                  }
+                 }
+                },
+                "d2exp": {
+                 "D2Edapp": {
+                  "d2exp": {
+                   "D2Econ1": {
+                    "d2con": {
+                     "symbol": "list_nil",
+                     "stamp": "6"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d2explst": []
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d2clau": {
+               "D2CLAUexp": {
+                "d2gpat": {
+                 "D2GPATpat": {
+                  "d2pat": {
+                   "D2Pdapp": {
+                    "d2pat": {
+                     "D2Pcon1": {
+                      "d2con": {
+                       "symbol": "list_cons",
+                       "stamp": "7"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d2patlst": [
+                     {
+                      "d2pat": {
+                       "D2Pvar": {
+                        "d2var": {
+                         "symbol": "x0",
+                         "stamp": "3"
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "d2pat": {
+                       "D2Pvar": {
+                        "d2var": {
+                         "symbol": "xs",
+                         "stamp": "4"
+                        }
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                },
+                "d2exp": {
+                 "D2Edapp": {
+                  "d2exp": {
+                   "D2Econ1": {
+                    "d2con": {
+                     "symbol": "list_cons",
+                     "stamp": "7"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d2explst": [
+                   {
+                    "d2exp": {
+                     "D2Edapp": {
+                      "d2exp": {
+                       "D2Evar": {
+                        "d2var": {
+                         "symbol": "f0",
+                         "stamp": "2"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d2explst": [
+                       {
+                        "d2exp": {
+                         "D2Evar": {
+                          "d2var": {
+                           "symbol": "x0",
+                           "stamp": "3"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "d2exp": {
+                     "D2Edapp": {
+                      "d2exp": {
+                       "D2Evar": {
+                        "d2var": {
+                         "symbol": "map_list",
+                         "stamp": "0"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d2explst": [
+                       {
+                        "d2exp": {
+                         "D2Evar": {
+                          "d2var": {
+                           "symbol": "xs",
+                           "stamp": "4"
+                          }
+                         }
+                        }
+                       },
+                       {
+                        "d2exp": {
+                         "D2Evar": {
+                          "d2var": {
+                           "symbol": "f0",
+                           "stamp": "2"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq2arglst": [
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "a",
+           "stamp": "365"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "b",
+           "stamp": "366"
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "f2undeclist": [
+      {
+       "f2undecl": {
+        "F2UNDECL": {
+         "d2var": {
+          "symbol": "map_optn",
+          "stamp": "5"
+         },
+         "d2cst": {
+          "symbol": "map_optn",
+          "stamp": "113"
+         },
+         "f2arglst": [
+          {
+           "f2arg": {
+            "F2ARGsome_dyn": {
+             "npf": "-1",
+             "d2patlst": [
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "xs",
+                    "stamp": "6"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Eapp": {
+                   "s2exp": {
+                    "S2Ecst": {
+                     "s2cst": {
+                      "symbol": "optn",
+                      "stamp": "210"
+                     }
+                    }
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "365"
+                       }
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "f0",
+                    "stamp": "7"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Efun": {
+                   "funclo2": {
+                    "FC2fun": {}
+                   },
+                   "npf": {
+                    "int": -1
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "365"
+                       }
+                      }
+                     }
+                    }
+                   ],
+                   "s2exp": {
+                    "S2Evar": {
+                     "s2var": {
+                      "symbol": "b",
+                      "stamp": "366"
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "effs2expopt": {
+          "EFFS2EXPsome": {
+           "s2exp": {
+            "S2Eapp": {
+             "s2exp": {
+              "S2Ecst": {
+               "s2cst": {
+                "symbol": "optn",
+                "stamp": "210"
+               }
+              }
+             },
+             "s2explst": [
+              {
+               "s2exp": {
+                "S2Evar": {
+                 "s2var": {
+                  "symbol": "b",
+                  "stamp": "366"
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "d2expopt": {
+          "d2exp": {
+           "D2Ecase": {
+            "int": 1,
+            "d2exp": {
+             "D2Evar": {
+              "d2var": {
+               "symbol": "xs",
+               "stamp": "6"
+              }
+             }
+            },
+            "d2claulst": [
+             {
+              "d2clau": {
+               "D2CLAUexp": {
+                "d2gpat": {
+                 "D2GPATpat": {
+                  "d2pat": {
+                   "D2Pdapp": {
+                    "d2pat": {
+                     "D2Pcon1": {
+                      "d2con": {
+                       "symbol": "none",
+                       "stamp": "14"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d2patlst": []
+                   }
+                  }
+                 }
+                },
+                "d2exp": {
+                 "D2Edapp": {
+                  "d2exp": {
+                   "D2Econ1": {
+                    "d2con": {
+                     "symbol": "none",
+                     "stamp": "14"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d2explst": []
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d2clau": {
+               "D2CLAUexp": {
+                "d2gpat": {
+                 "D2GPATpat": {
+                  "d2pat": {
+                   "D2Pdapp": {
+                    "d2pat": {
+                     "D2Pcon1": {
+                      "d2con": {
+                       "symbol": "some",
+                       "stamp": "15"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d2patlst": [
+                     {
+                      "d2pat": {
+                       "D2Pvar": {
+                        "d2var": {
+                         "symbol": "x",
+                         "stamp": "8"
+                        }
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                },
+                "d2exp": {
+                 "D2Edapp": {
+                  "d2exp": {
+                   "D2Econ1": {
+                    "d2con": {
+                     "symbol": "some",
+                     "stamp": "15"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d2explst": [
+                   {
+                    "d2exp": {
+                     "D2Edapp": {
+                      "d2exp": {
+                       "D2Evar": {
+                        "d2var": {
+                         "symbol": "f0",
+                         "stamp": "7"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d2explst": [
+                       {
+                        "d2exp": {
+                         "D2Evar": {
+                          "d2var": {
+                           "symbol": "x",
+                           "stamp": "8"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Csymload": {
+     "token": {
+      "tnode": "#SYMLOAD"
+     },
+     "symbol": "map",
+     "d2pitm": {
+      "D2PITMsome": {
+       "pval": {
+        "int": 0
+       },
+       "d2itm": {
+        "D2ITMcst": {
+         "d2cstlst": [
+          {
+           "d2cst": {
+            "symbol": "map_list",
+            "stamp": "112"
+           }
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Csymload": {
+     "token": {
+      "tnode": "#SYMLOAD"
+     },
+     "symbol": "map",
+     "d2pitm": {
+      "D2PITMsome": {
+       "pval": {
+        "int": 0
+       },
+       "d2itm": {
+        "D2ITMcst": {
+         "d2cstlst": [
+          {
+           "d2cst": {
+            "symbol": "map_optn",
+            "stamp": "113"
+           }
+          }
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v2aldeclist": [
+      {
+       "v2arlecl": {
+        "V2ALDECL": {
+         "d2pat": {
+          "D2Pvar": {
+           "d2var": {
+            "symbol": "xs",
+            "stamp": "9"
+           }
+          }
+         },
+         "d2expopt": {
+          "d2exp": {
+           "D2Edapp": {
+            "d2exp": {
+             "D2Econ1": {
+              "d2con": {
+               "symbol": "list_cons",
+               "stamp": "7"
+              }
+             }
+            },
+            "npf": "-1",
+            "d2explst": [
+             {
+              "d2exp": {
+               "D2Eint": {
+                "token": {
+                 "tnode": {
+                  "INT1": "1"
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d2exp": {
+               "D2Edapp": {
+                "d2exp": {
+                 "D2Econ1": {
+                  "d2con": {
+                   "symbol": "list_cons",
+                   "stamp": "7"
+                  }
+                 }
+                },
+                "npf": "-1",
+                "d2explst": [
+                 {
+                  "d2exp": {
+                   "D2Eint": {
+                    "token": {
+                     "tnode": {
+                      "INT1": "2"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d2exp": {
+                   "D2Edapp": {
+                    "d2exp": {
+                     "D2Econ1": {
+                      "d2con": {
+                       "symbol": "list_nil",
+                       "stamp": "6"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d2explst": []
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v2aldeclist": [
+      {
+       "v2arlecl": {
+        "V2ALDECL": {
+         "d2pat": {
+          "D2Pvar": {
+           "d2var": {
+            "symbol": "r0",
+            "stamp": "10"
+           }
+          }
+         },
+         "d2expopt": {
+          "d2exp": {
+           "D2Edapp": {
+            "d2exp": {
+             "D2Econ1": {
+              "d2con": {
+               "symbol": "some",
+               "stamp": "15"
+              }
+             }
+            },
+            "npf": "-1",
+            "d2explst": [
+             {
+              "d2exp": {
+               "D2Evar": {
+                "d2var": {
+                 "symbol": "xs",
+                 "stamp": "9"
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d2ecl": {
+    "D2Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v2aldeclist": [
+      {
+       "v2arlecl": {
+        "V2ALDECL": {
+         "d2pat": {
+          "D2Pvar": {
+           "d2var": {
+            "symbol": "r1",
+            "stamp": "11"
+           }
+          }
+         },
+         "d2expopt": {
+          "d2exp": {
+           "D2Ewhere": {
+            "d2exp": {
+             "D2Edapp": {
+              "d2exp": {
+               "D2Esym0": {
+                "d1exp": {
+                 "D1Eid": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "map"
+                   }
+                  }
+                 }
+                },
+                "d2pitmlst": [
+                 {
+                  "d2pitm": {
+                   "D2PITMsome": {
+                    "pval": {
+                     "int": 0
+                    },
+                    "d2itm": {
+                     "D2ITMcst": {
+                      "d2cstlst": [
+                       {
+                        "d2cst": {
+                         "symbol": "map_optn",
+                         "stamp": "113"
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d2pitm": {
+                   "D2PITMsome": {
+                    "pval": {
+                     "int": 0
+                    },
+                    "d2itm": {
+                     "D2ITMcst": {
+                      "d2cstlst": [
+                       {
+                        "d2cst": {
+                         "symbol": "map_list",
+                         "stamp": "112"
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  }
+                 }
+                ]
+               }
+              },
+              "npf": "-1",
+              "d2explst": [
+               {
+                "d2exp": {
+                 "D2Evar": {
+                  "d2var": {
+                   "symbol": "r0",
+                   "stamp": "10"
+                  }
+                 }
+                }
+               },
+               {
+                "d2exp": {
+                 "D2Evar": {
+                  "d2var": {
+                   "symbol": "res",
+                   "stamp": "12"
+                  }
+                 }
+                }
+               }
+              ]
+             }
+            },
+            "d2eclist": [
+             {
+              "d2ecl": {
+               "D2Cvaldecl": {
+                "token": {
+                 "tnode": {
+                  "VAL": {
+                   "valkind": "VLKval"
+                  }
+                 }
+                },
+                "decmodopt": {
+                 "DECOMODnone": {}
+                },
+                "v2aldeclist": [
+                 {
+                  "v2arlecl": {
+                   "V2ALDECL": {
+                    "d2pat": {
+                     "D2Pvar": {
+                      "d2var": {
+                       "symbol": "res",
+                       "stamp": "12"
+                      }
+                     }
+                    },
+                    "d2expopt": {
+                     "d2exp": {
+                      "D2Elam": {
+                       "token": {
+                        "tnode": {
+                         "LAM": {
+                          "int": 0
+                         }
+                        }
+                       },
+                       "f2arglst": [
+                        {
+                         "f2arg": {
+                          "F2ARGsome_dyn": {
+                           "npf": "-1",
+                           "d2patlst": [
+                            {
+                             "d2pat": {
+                              "D2Pvar": {
+                               "d2var": {
+                                "symbol": "k",
+                                "stamp": "13"
+                               }
+                              }
+                             }
+                            }
+                           ]
+                          }
+                         }
+                        }
+                       ],
+                       "effs2expopt": {
+                        "EFFS2EXPnone": {}
+                       },
+                       "f1unarrow": {
+                        "F1UNARROWdflt": {}
+                       },
+                       "d2exp": {
+                        "D2Edapp": {
+                         "d2exp": {
+                          "D2Ecst1": {
+                           "d2cst": {
+                            "symbol": "map_list",
+                            "stamp": "112"
+                           }
+                          }
+                         },
+                         "npf": "-1",
+                         "d2explst": [
+                          {
+                           "d2exp": {
+                            "D2Evar": {
+                             "d2var": {
+                              "symbol": "k",
+                              "stamp": "13"
+                             }
+                            }
+                           }
+                          },
+                          {
+                           "d2exp": {
+                            "D2Elam": {
+                             "token": {
+                              "tnode": {
+                               "LAM": {
+                                "int": 0
+                               }
+                              }
+                             },
+                             "f2arglst": [
+                              {
+                               "f2arg": {
+                                "F2ARGsome_dyn": {
+                                 "npf": "-1",
+                                 "d2patlst": [
+                                  {
+                                   "d2pat": {
+                                    "D2Pvar": {
+                                     "d2var": {
+                                      "symbol": "x",
+                                      "stamp": "14"
+                                     }
+                                    }
+                                   }
+                                  }
+                                 ]
+                                }
+                               }
+                              }
+                             ],
+                             "effs2expopt": {
+                              "EFFS2EXPnone": {}
+                             },
+                             "f1unarrow": {
+                              "F1UNARROWdflt": {}
+                             },
+                             "d2exp": {
+                              "D2Eif0": {
+                               "d2exp": {
+                                "D2Ebtf": {
+                                 "token": {
+                                  "tnode": {
+                                   "IDENT_alp": "true"
+                                  }
+                                 }
+                                }
+                               },
+                               "d2expopt": {
+                                "d2exp": {
+                                 "D2Ebtf": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "false"
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              }
+                             }
+                            }
+                           }
+                          }
+                         ]
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "s2expopt": {}
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

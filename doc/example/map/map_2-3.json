@@ -1,0 +1,1533 @@
+{
+ "d3eclist": [
+  {
+   "d3ecl": {
+    "D3Cnone1": {
+     "d2ecl": {
+      "D2Cdatatype": {
+       "d1ecl": {
+        "D1Cdatatype": {
+         "knd": {
+          "token": {
+           "tnode": {
+            "DATATYPE": {
+             "int": 0
+            }
+           }
+          }
+         },
+         "d1atypelst": [
+          {
+           "d1atype": {
+            "D1ATYPE": {
+             "token": {
+              "tnode": {
+               "IDENT_alp": "optn"
+              }
+             },
+             "t1marglst": [
+              {
+               "t1marg": {
+                "T1MARGlist": {
+                 "t1arglst": [
+                  {
+                   "t1arg": {
+                    "T1ARGsome": {
+                     "sort1": {
+                      "S1Tapp1": {
+                       "sort1": {
+                        "S1Tid": {
+                         "symbol": "type"
+                        }
+                       }
+                      }
+                     },
+                     "tokenopt": {
+                      "token": {
+                       "tnode": {
+                        "IDENT_alp": "a"
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 ]
+                }
+               }
+              }
+             ],
+             "sort1opt": {},
+             "d1atconlst": [
+              {
+               "d1atcon": {
+                "D1ATCON": {
+                 "s1unilst": [],
+                 "token": {
+                  "tnode": {
+                   "IDENT_alp": "none"
+                  }
+                 },
+                 "s1explst": [
+                  {
+                   "s1exp": {
+                    "S1Elist": {
+                     "s1explst": [
+                      {
+                       "s1exp": {
+                        "S1Eid": {
+                         "symbol": "a"
+                        }
+                       }
+                      }
+                     ]
+                    }
+                   }
+                  }
+                 ],
+                 "s1expopt": {
+                  "s1exp": {
+                   "S1Elist": {
+                    "s1explst": []
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "d1atcon": {
+                "D1ATCON": {
+                 "s1unilst": [],
+                 "token": {
+                  "tnode": {
+                   "IDENT_alp": "some"
+                  }
+                 },
+                 "s1explst": [
+                  {
+                   "s1exp": {
+                    "S1Elist": {
+                     "s1explst": [
+                      {
+                       "s1exp": {
+                        "S1Eid": {
+                         "symbol": "a"
+                        }
+                       }
+                      }
+                     ]
+                    }
+                   }
+                  }
+                 ],
+                 "s1expopt": {
+                  "s1exp": {
+                   "S1Elist": {
+                    "s1explst": [
+                     {
+                      "s1exp": {
+                       "S1Eid": {
+                        "symbol": "a"
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "wd1eclseq": {
+          "WD1CSnone": {}
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq2arglst": [
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "a",
+           "stamp": "363"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "b",
+           "stamp": "364"
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "f3undeclist": [
+      {
+       "f3undecl": {
+        "F3UNDECL": {
+         "d2var": {
+          "symbol": "map_list",
+          "stamp": "0"
+         },
+         "d2cst": {
+          "symbol": "map_list",
+          "stamp": "112"
+         },
+         "f2arglst": [
+          {
+           "f2arg": {
+            "F2ARGsome_dyn": {
+             "npf": "-1",
+             "d2patlst": [
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "xs",
+                    "stamp": "1"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Eapp": {
+                   "s2exp": {
+                    "S2Ecst": {
+                     "s2cst": {
+                      "symbol": "list",
+                      "stamp": "145"
+                     }
+                    }
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "363"
+                       }
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "f0",
+                    "stamp": "2"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Efun": {
+                   "funclo2": {
+                    "FC2fun": {}
+                   },
+                   "npf": {
+                    "int": -1
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "363"
+                       }
+                      }
+                     }
+                    }
+                   ],
+                   "s2exp": {
+                    "S2Evar": {
+                     "s2var": {
+                      "symbol": "b",
+                      "stamp": "364"
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "effs2expopt": {
+          "EFFS2EXPsome": {
+           "s2exp": {
+            "S2Eapp": {
+             "s2exp": {
+              "S2Ecst": {
+               "s2cst": {
+                "symbol": "list",
+                "stamp": "145"
+               }
+              }
+             },
+             "s2explst": [
+              {
+               "s2exp": {
+                "S2Evar": {
+                 "s2var": {
+                  "symbol": "b",
+                  "stamp": "364"
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "d3expopt": {
+          "d3exp": {
+           "D3Ecase": {
+            "knd": "1",
+            "d3exp": {
+             "D3Evar": {
+              "d2var": {
+               "symbol": "xs",
+               "stamp": "1"
+              }
+             }
+            },
+            "d3claulst": [
+             {
+              "d3clau": {
+               "D3CLAUexp": {
+                "d3gpat": {
+                 "D3GPATpat": {
+                  "d3pat": {
+                   "D3Pdapp": {
+                    "d3pat": {
+                     "D3Pcon1": {
+                      "d2con": {
+                       "symbol": "list_nil",
+                       "stamp": "6"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d3patlst": []
+                   }
+                  }
+                 }
+                },
+                "d3exp": {
+                 "D3Edapp": {
+                  "d3exp": {
+                   "D3Econ1": {
+                    "d2con": {
+                     "symbol": "list_nil",
+                     "stamp": "6"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d3explst": []
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d3clau": {
+               "D3CLAUexp": {
+                "d3gpat": {
+                 "D3GPATpat": {
+                  "d3pat": {
+                   "D3Pdapp": {
+                    "d3pat": {
+                     "D3Pcon1": {
+                      "d2con": {
+                       "symbol": "list_cons",
+                       "stamp": "7"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d3patlst": [
+                     {
+                      "d3pat": {
+                       "D3Pvar": {
+                        "d2var": {
+                         "symbol": "x0",
+                         "stamp": "3"
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "d3pat": {
+                       "D3Pvar": {
+                        "d2var": {
+                         "symbol": "xs",
+                         "stamp": "4"
+                        }
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                },
+                "d3exp": {
+                 "D3Edapp": {
+                  "d3exp": {
+                   "D3Econ1": {
+                    "d2con": {
+                     "symbol": "list_cons",
+                     "stamp": "7"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d3explst": [
+                   {
+                    "d3exp": {
+                     "D3Edapp": {
+                      "d3exp": {
+                       "D3Evar": {
+                        "d2var": {
+                         "symbol": "f0",
+                         "stamp": "2"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d3explst": [
+                       {
+                        "d3exp": {
+                         "D3Evar": {
+                          "d2var": {
+                           "symbol": "x0",
+                           "stamp": "3"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   },
+                   {
+                    "d3exp": {
+                     "D3Edapp": {
+                      "d3exp": {
+                       "D3Evar": {
+                        "d2var": {
+                         "symbol": "map_list",
+                         "stamp": "0"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d3explst": [
+                       {
+                        "d3exp": {
+                         "D3Evar": {
+                          "d2var": {
+                           "symbol": "xs",
+                           "stamp": "4"
+                          }
+                         }
+                        }
+                       },
+                       {
+                        "d3exp": {
+                         "D3Evar": {
+                          "d2var": {
+                           "symbol": "f0",
+                           "stamp": "2"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "t2pcats": {
+          "T2PCASTnone": {}
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq2arglst": [
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "a",
+           "stamp": "365"
+          }
+         }
+        ]
+       }
+      },
+      {
+       "tq2arg": {
+        "s2varlst": [
+         {
+          "s2var": {
+           "symbol": "b",
+           "stamp": "366"
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "f3undeclist": [
+      {
+       "f3undecl": {
+        "F3UNDECL": {
+         "d2var": {
+          "symbol": "map_optn",
+          "stamp": "5"
+         },
+         "d2cst": {
+          "symbol": "map_optn",
+          "stamp": "113"
+         },
+         "f2arglst": [
+          {
+           "f2arg": {
+            "F2ARGsome_dyn": {
+             "npf": "-1",
+             "d2patlst": [
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "xs",
+                    "stamp": "6"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Eapp": {
+                   "s2exp": {
+                    "S2Ecst": {
+                     "s2cst": {
+                      "symbol": "optn",
+                      "stamp": "210"
+                     }
+                    }
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "365"
+                       }
+                      }
+                     }
+                    }
+                   ]
+                  }
+                 }
+                }
+               }
+              },
+              {
+               "d2pat": {
+                "D2Panno": {
+                 "d2pat": {
+                  "D2Pvar": {
+                   "d2var": {
+                    "symbol": "f0",
+                    "stamp": "7"
+                   }
+                  }
+                 },
+                 "s2exp": {
+                  "S2Efun": {
+                   "funclo2": {
+                    "FC2fun": {}
+                   },
+                   "npf": {
+                    "int": -1
+                   },
+                   "s2explst": [
+                    {
+                     "s2exp": {
+                      "S2Evar": {
+                       "s2var": {
+                        "symbol": "a",
+                        "stamp": "365"
+                       }
+                      }
+                     }
+                    }
+                   ],
+                   "s2exp": {
+                    "S2Evar": {
+                     "s2var": {
+                      "symbol": "b",
+                      "stamp": "366"
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "effs2expopt": {
+          "EFFS2EXPsome": {
+           "s2exp": {
+            "S2Eapp": {
+             "s2exp": {
+              "S2Ecst": {
+               "s2cst": {
+                "symbol": "optn",
+                "stamp": "210"
+               }
+              }
+             },
+             "s2explst": [
+              {
+               "s2exp": {
+                "S2Evar": {
+                 "s2var": {
+                  "symbol": "b",
+                  "stamp": "366"
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "d3expopt": {
+          "d3exp": {
+           "D3Ecase": {
+            "knd": "1",
+            "d3exp": {
+             "D3Evar": {
+              "d2var": {
+               "symbol": "xs",
+               "stamp": "6"
+              }
+             }
+            },
+            "d3claulst": [
+             {
+              "d3clau": {
+               "D3CLAUexp": {
+                "d3gpat": {
+                 "D3GPATpat": {
+                  "d3pat": {
+                   "D3Pdapp": {
+                    "d3pat": {
+                     "D3Pcon1": {
+                      "d2con": {
+                       "symbol": "none",
+                       "stamp": "14"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d3patlst": []
+                   }
+                  }
+                 }
+                },
+                "d3exp": {
+                 "D3Edapp": {
+                  "d3exp": {
+                   "D3Econ1": {
+                    "d2con": {
+                     "symbol": "none",
+                     "stamp": "14"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d3explst": []
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d3clau": {
+               "D3CLAUexp": {
+                "d3gpat": {
+                 "D3GPATpat": {
+                  "d3pat": {
+                   "D3Pdapp": {
+                    "d3pat": {
+                     "D3Pcon1": {
+                      "d2con": {
+                       "symbol": "some",
+                       "stamp": "15"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d3patlst": [
+                     {
+                      "d3pat": {
+                       "D3Pvar": {
+                        "d2var": {
+                         "symbol": "x",
+                         "stamp": "8"
+                        }
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                },
+                "d3exp": {
+                 "D3Edapp": {
+                  "d3exp": {
+                   "D3Econ1": {
+                    "d2con": {
+                     "symbol": "some",
+                     "stamp": "15"
+                    }
+                   }
+                  },
+                  "npf": "-1",
+                  "d3explst": [
+                   {
+                    "d3exp": {
+                     "D3Edapp": {
+                      "d3exp": {
+                       "D3Evar": {
+                        "d2var": {
+                         "symbol": "f0",
+                         "stamp": "7"
+                        }
+                       }
+                      },
+                      "npf": "-1",
+                      "d3explst": [
+                       {
+                        "d3exp": {
+                         "D3Evar": {
+                          "d2var": {
+                           "symbol": "x",
+                           "stamp": "8"
+                          }
+                         }
+                        }
+                       }
+                      ]
+                     }
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "t2pcats": {
+          "T2PCASTnone": {}
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cd2ecl": {
+     "d2ecl": {
+      "D2Csymload": {
+       "token": {
+        "tnode": "#SYMLOAD"
+       },
+       "symbol": "map",
+       "d2pitm": {
+        "D2PITMsome": {
+         "pval": {
+          "int": 0
+         },
+         "d2itm": {
+          "D2ITMcst": {
+           "d2cstlst": [
+            {
+             "d2cst": {
+              "symbol": "map_list",
+              "stamp": "112"
+             }
+            }
+           ]
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cd2ecl": {
+     "d2ecl": {
+      "D2Csymload": {
+       "token": {
+        "tnode": "#SYMLOAD"
+       },
+       "symbol": "map",
+       "d2pitm": {
+        "D2PITMsome": {
+         "pval": {
+          "int": 0
+         },
+         "d2itm": {
+          "D2ITMcst": {
+           "d2cstlst": [
+            {
+             "d2cst": {
+              "symbol": "map_optn",
+              "stamp": "113"
+             }
+            }
+           ]
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v3aldeclist": [
+      {
+       "v3aldecl": {
+        "V3ALDECL": {
+         "d3pat": {
+          "D3Pvar": {
+           "d2var": {
+            "symbol": "xs",
+            "stamp": "9"
+           }
+          }
+         },
+         "d3expopt": {
+          "d3exp": {
+           "D3Edapp": {
+            "d3exp": {
+             "D3Econ1": {
+              "d2con": {
+               "symbol": "list_cons",
+               "stamp": "7"
+              }
+             }
+            },
+            "npf": "-1",
+            "d3explst": [
+             {
+              "d3exp": {
+               "D3Eint": {
+                "token": {
+                 "tnode": {
+                  "INT1": "1"
+                 }
+                }
+               }
+              }
+             },
+             {
+              "d3exp": {
+               "D3Edapp": {
+                "d3exp": {
+                 "D3Econ1": {
+                  "d2con": {
+                   "symbol": "list_cons",
+                   "stamp": "7"
+                  }
+                 }
+                },
+                "npf": "-1",
+                "d3explst": [
+                 {
+                  "d3exp": {
+                   "D3Eint": {
+                    "token": {
+                     "tnode": {
+                      "INT1": "2"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d3exp": {
+                   "D3Edapp": {
+                    "d3exp": {
+                     "D3Econ1": {
+                      "d2con": {
+                       "symbol": "list_nil",
+                       "stamp": "6"
+                      }
+                     }
+                    },
+                    "npf": "-1",
+                    "d3explst": []
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v3aldeclist": [
+      {
+       "v3aldecl": {
+        "V3ALDECL": {
+         "d3pat": {
+          "D3Pvar": {
+           "d2var": {
+            "symbol": "r0",
+            "stamp": "10"
+           }
+          }
+         },
+         "d3expopt": {
+          "d3exp": {
+           "D3Edapp": {
+            "d3exp": {
+             "D3Econ1": {
+              "d2con": {
+               "symbol": "some",
+               "stamp": "15"
+              }
+             }
+            },
+            "npf": "-1",
+            "d3explst": [
+             {
+              "d3exp": {
+               "D3Evar": {
+                "d2var": {
+                 "symbol": "xs",
+                 "stamp": "9"
+                }
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d3ecl": {
+    "D3Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v3aldeclist": [
+      {
+       "v3aldecl": {
+        "V3ALDECL": {
+         "d3pat": {
+          "D3Pvar": {
+           "d2var": {
+            "symbol": "r1",
+            "stamp": "11"
+           }
+          }
+         },
+         "d3expopt": {
+          "d3exp": {
+           "D3Ewhere": {
+            "d3exp": {
+             "D3Edapp": {
+              "d3exp": {
+               "D3Esym0": {
+                "d1exp": {
+                 "D1Eid": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "map"
+                   }
+                  }
+                 }
+                },
+                "t2ype": {
+                 "T2Pxtv": {
+                  "t2ype": {
+                   "T2Pfun": {
+                    "t2ype": {
+                     "T2Pxtv": {
+                      "t2ype": {
+                       "T2Pxtv": {
+                        "stamp": "49"
+                       }
+                      }
+                     }
+                    },
+                    "int": -1,
+                    "t2ypelst": [
+                     {
+                      "t2ype": {
+                       "T2Papp": {
+                        "t2ype": {
+                         "T2Pcst": {
+                          "s2cst": {
+                           "symbol": "optn",
+                           "stamp": "210"
+                          }
+                         }
+                        },
+                        "t2ypelst": [
+                         {
+                          "t2ype": {
+                           "T2Papp": {
+                            "t2ype": {
+                             "T2Pcst": {
+                              "s2cst": {
+                               "symbol": "list_t0_i0_x0",
+                               "stamp": "141"
+                              }
+                             }
+                            },
+                            "t2ypelst": [
+                             {
+                              "t2ype": {
+                               "T2Papp": {
+                                "t2ype": {
+                                 "T2Pcst": {
+                                  "s2cst": {
+                                   "symbol": "gint_type",
+                                   "stamp": "87"
+                                  }
+                                 }
+                                },
+                                "t2ypelst": [
+                                 {
+                                  "t2ype": {
+                                   "T2Pcst": {
+                                    "s2cst": {
+                                     "symbol": "sint_k",
+                                     "stamp": "72"
+                                    }
+                                   }
+                                  }
+                                 },
+                                 {
+                                  "t2ype": {
+                                   "T2Pnone0": {}
+                                  }
+                                 }
+                                ]
+                               }
+                              }
+                             },
+                             {
+                              "t2ype": {
+                               "T2Pnone0": {}
+                              }
+                             }
+                            ]
+                           }
+                          }
+                         }
+                        ]
+                       }
+                      }
+                     },
+                     {
+                      "t2ype": {
+                       "T2Pfun": {
+                        "t2ype": {
+                         "T2Pxtv": {
+                          "t2ype": {
+                           "T2Papp": {
+                            "t2ype": {
+                             "T2Pcst": {
+                              "s2cst": {
+                               "symbol": "list",
+                               "stamp": "143"
+                              }
+                             }
+                            },
+                            "t2ypelst": [
+                             {
+                              "t2ype": {
+                               "T2Pxtv": {
+                                "t2ype": {
+                                 "T2Papp": {
+                                  "t2ype": {
+                                   "T2Pcst": {
+                                    "s2cst": {
+                                     "symbol": "bool_type",
+                                     "stamp": "80"
+                                    }
+                                   }
+                                  },
+                                  "t2ypelst": [
+                                   {
+                                    "t2ype": {
+                                     "T2Pnone0": {}
+                                    }
+                                   }
+                                  ]
+                                 }
+                                }
+                               }
+                              }
+                             },
+                             {
+                              "t2ype": {
+                               "T2Pnone0": {}
+                              }
+                             }
+                            ]
+                           }
+                          }
+                         }
+                        },
+                        "int": -1,
+                        "t2ypelst": [
+                         {
+                          "t2ype": {
+                           "T2Pxtv": {
+                            "t2ype": {
+                             "T2Papp": {
+                              "t2ype": {
+                               "T2Pcst": {
+                                "s2cst": {
+                                 "symbol": "list",
+                                 "stamp": "143"
+                                }
+                               }
+                              },
+                              "t2ypelst": [
+                               {
+                                "t2ype": {
+                                 "T2Pxtv": {
+                                  "t2ype": {
+                                   "T2Pxtv": {
+                                    "stamp": "54"
+                                   }
+                                  }
+                                 }
+                                }
+                               },
+                               {
+                                "t2ype": {
+                                 "T2Pnone0": {}
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         }
+                        ]
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "npf": "-1",
+              "d3explst": [
+               {
+                "d3exp": {
+                 "D3Evar": {
+                  "d2var": {
+                   "symbol": "r0",
+                   "stamp": "10"
+                  }
+                 }
+                }
+               },
+               {
+                "d3exp": {
+                 "D3Evar": {
+                  "d2var": {
+                   "symbol": "res",
+                   "stamp": "12"
+                  }
+                 }
+                }
+               }
+              ]
+             }
+            },
+            "d3eclist": [
+             {
+              "d3ecl": {
+               "D3Cvaldecl": {
+                "token": {
+                 "tnode": {
+                  "VAL": {
+                   "valkind": "VLKval"
+                  }
+                 }
+                },
+                "decmodopt": {
+                 "DECOMODnone": {}
+                },
+                "v3aldeclist": [
+                 {
+                  "v3aldecl": {
+                   "V3ALDECL": {
+                    "d3pat": {
+                     "D3Pvar": {
+                      "d2var": {
+                       "symbol": "res",
+                       "stamp": "12"
+                      }
+                     }
+                    },
+                    "d3expopt": {
+                     "d3exp": {
+                      "D3Elam": {
+                       "token": {
+                        "tnode": {
+                         "LAM": {
+                          "int": 0
+                         }
+                        }
+                       },
+                       "f3arglst": [
+                        {
+                         "f3arg": {
+                          "F3ARGsome_dyn": {
+                           "npf": "-1",
+                           "d3patlst": [
+                            {
+                             "d3pat": {
+                              "D3Pvar": {
+                               "d2var": {
+                                "symbol": "k",
+                                "stamp": "13"
+                               }
+                              }
+                             }
+                            }
+                           ]
+                          }
+                         }
+                        }
+                       ],
+                       "effs2expopt": {
+                        "EFFS2EXPnone": {}
+                       },
+                       "f1unarrow": {
+                        "F1UNARROWdflt": {}
+                       },
+                       "d3exp": {
+                        "D3Edapp": {
+                         "d3exp": {
+                          "D3Etcst": {
+                           "d2cst": {
+                            "symbol": "map_list",
+                            "stamp": "112"
+                           },
+                           "ti3arg": {
+                            "TI3ARGnone": {
+                             "t2ypelst": [
+                              {
+                               "t2ype": {
+                                "T2Pxtv": {
+                                 "t2ype": {
+                                  "T2Pxtv": {
+                                   "stamp": "54"
+                                  }
+                                 }
+                                }
+                               }
+                              },
+                              {
+                               "t2ype": {
+                                "T2Pxtv": {
+                                 "t2ype": {
+                                  "T2Papp": {
+                                   "t2ype": {
+                                    "T2Pcst": {
+                                     "s2cst": {
+                                      "symbol": "bool_type",
+                                      "stamp": "80"
+                                     }
+                                    }
+                                   },
+                                   "t2ypelst": [
+                                    {
+                                     "t2ype": {
+                                      "T2Pnone0": {}
+                                     }
+                                    }
+                                   ]
+                                  }
+                                 }
+                                }
+                               }
+                              }
+                             ]
+                            }
+                           },
+                           "ti2arglst": []
+                          }
+                         },
+                         "npf": "-1",
+                         "d3explst": [
+                          {
+                           "d3exp": {
+                            "D3Evar": {
+                             "d2var": {
+                              "symbol": "k",
+                              "stamp": "13"
+                             }
+                            }
+                           }
+                          },
+                          {
+                           "d3exp": {
+                            "D3Elam": {
+                             "token": {
+                              "tnode": {
+                               "LAM": {
+                                "int": 0
+                               }
+                              }
+                             },
+                             "f3arglst": [
+                              {
+                               "f3arg": {
+                                "F3ARGsome_dyn": {
+                                 "npf": "-1",
+                                 "d3patlst": [
+                                  {
+                                   "d3pat": {
+                                    "D3Pvar": {
+                                     "d2var": {
+                                      "symbol": "x",
+                                      "stamp": "14"
+                                     }
+                                    }
+                                   }
+                                  }
+                                 ]
+                                }
+                               }
+                              }
+                             ],
+                             "effs2expopt": {
+                              "EFFS2EXPnone": {}
+                             },
+                             "f1unarrow": {
+                              "F1UNARROWdflt": {}
+                             },
+                             "d3exp": {
+                              "D3Eif0": {
+                               "d3exp": {
+                                "D3Ebtf": {
+                                 "token": {
+                                  "tnode": {
+                                   "IDENT_alp": "true"
+                                  }
+                                 }
+                                }
+                               },
+                               "d3expopt": {
+                                "d3exp": {
+                                 "D3Ebtf": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "false"
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              }
+                             }
+                            }
+                           }
+                          }
+                         ]
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "s2expopt": {}
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "s2expopt": {}
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

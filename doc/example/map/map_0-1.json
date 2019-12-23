@@ -1,0 +1,1278 @@
+{
+ "d1eclist": [
+  {
+   "d1ecl": {
+    "D1Cdatatype": {
+     "knd": {
+      "token": {
+       "tnode": {
+        "DATATYPE": {
+         "int": 0
+        }
+       }
+      }
+     },
+     "d1atypelst": [
+      {
+       "d1atype": {
+        "D1ATYPE": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "optn"
+          }
+         },
+         "t1marglst": [
+          {
+           "t1marg": {
+            "T1MARGlist": {
+             "t1arglst": [
+              {
+               "t1arg": {
+                "T1ARGsome": {
+                 "sort1": {
+                  "S1Tapp1": {
+                   "sort1": {
+                    "S1Tid": {
+                     "symbol": "type"
+                    }
+                   }
+                  }
+                 },
+                 "tokenopt": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "a"
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             ]
+            }
+           }
+          }
+         ],
+         "sort1opt": {},
+         "d1atconlst": [
+          {
+           "d1atcon": {
+            "D1ATCON": {
+             "s1unilst": [],
+             "token": {
+              "tnode": {
+               "IDENT_alp": "none"
+              }
+             },
+             "s1explst": [
+              {
+               "s1exp": {
+                "S1Elist": {
+                 "s1explst": [
+                  {
+                   "s1exp": {
+                    "S1Eid": {
+                     "symbol": "a"
+                    }
+                   }
+                  }
+                 ]
+                }
+               }
+              }
+             ],
+             "s1expopt": {
+              "s1exp": {
+               "S1Elist": {
+                "s1explst": []
+               }
+              }
+             }
+            }
+           }
+          },
+          {
+           "d1atcon": {
+            "D1ATCON": {
+             "s1unilst": [],
+             "token": {
+              "tnode": {
+               "IDENT_alp": "some"
+              }
+             },
+             "s1explst": [
+              {
+               "s1exp": {
+                "S1Elist": {
+                 "s1explst": [
+                  {
+                   "s1exp": {
+                    "S1Eid": {
+                     "symbol": "a"
+                    }
+                   }
+                  }
+                 ]
+                }
+               }
+              }
+             ],
+             "s1expopt": {
+              "s1exp": {
+               "S1Elist": {
+                "s1explst": [
+                 {
+                  "s1exp": {
+                   "S1Eid": {
+                    "symbol": "a"
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "wd1eclseq": {
+      "WD1CSnone": {}
+     }
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq1arglst": [
+      {
+       "tq1arg": {
+        "TQ1ARGsome": {
+         "q1arglst": [
+          {
+           "q1arg": {
+            "Q1ARGsome": {
+             "token": {
+              "tnode": {
+               "IDENT_alp": "a"
+              }
+             },
+             "sort1opt": {
+              "sort1": {
+               "S1Tid": {
+                "symbol": "type"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      },
+      {
+       "tq1arg": {
+        "TQ1ARGsome": {
+         "q1arglst": [
+          {
+           "q1arg": {
+            "Q1ARGsome": {
+             "token": {
+              "tnode": {
+               "IDENT_alp": "b"
+              }
+             },
+             "sort1opt": {
+              "sort1": {
+               "S1Tid": {
+                "symbol": "type"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "f1undeclist": [
+      {
+       "f1undecl": {
+        "F1UNDECL": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map_list"
+          }
+         },
+         "f1arglst": [
+          {
+           "f1arg": {
+            "F1ARGsome_dyn": {
+             "d1pat": {
+              "D1Plist1": {
+               "d1patlst": [
+                {
+                 "d1pat": {
+                  "D1Panno": {
+                   "d1pat": {
+                    "D1Pid": {
+                     "token": {
+                      "tnode": {
+                       "IDENT_alp": "xs"
+                      }
+                     }
+                    }
+                   },
+                   "s1exp": {
+                    "S1Eapp1": {
+                     "s1exp": {
+                      "S1Elist": {
+                       "s1explst": [
+                        {
+                         "s1exp": {
+                          "S1Eid": {
+                           "symbol": "a"
+                          }
+                         }
+                        }
+                       ]
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                },
+                {
+                 "d1pat": {
+                  "D1Panno": {
+                   "d1pat": {
+                    "D1Pid": {
+                     "token": {
+                      "tnode": {
+                       "IDENT_alp": "f0"
+                      }
+                     }
+                    }
+                   },
+                   "s1exp": {
+                    "S1Eapp2": {
+                     "s1exp": {
+                      "S1Eid": {
+                       "symbol": "b"
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         ],
+         "effs1expopt": {
+          "EFFS1EXPsome": {
+           "s1exp": {
+            "S1Eapp1": {
+             "s1exp": {
+              "S1Elist": {
+               "s1explst": [
+                {
+                 "s1exp": {
+                  "S1Eid": {
+                   "symbol": "b"
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         },
+         "d1expopt": {
+          "d1exp": {
+           "D1Elist": {
+            "d1explst": [
+             {
+              "d1exp": {
+               "D1Ecase": {
+                "knd": {
+                 "token": {
+                  "tnode": {
+                   "CASE": {
+                    "int": 1
+                   }
+                  }
+                 }
+                },
+                "d1exp": {
+                 "D1Eid": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "xs"
+                   }
+                  }
+                 }
+                },
+                "d1claulst": [
+                 {
+                  "d1clau": {
+                   "D1CLAUclau": {
+                    "d1gpat": {
+                     "D1GPATpat": {
+                      "d1pat": {
+                       "D1Papps": {
+                        "d1pat": {
+                         "D1Plist1": {
+                          "d1patlst": []
+                         }
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "d1exp": {
+                     "D1Eapp1": {
+                      "d1exp": {
+                       "D1Elist": {
+                        "d1explst": []
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d1clau": {
+                   "D1CLAUclau": {
+                    "d1gpat": {
+                     "D1GPATpat": {
+                      "d1pat": {
+                       "D1Papps": {
+                        "d1pat": {
+                         "D1Plist1": {
+                          "d1patlst": [
+                           {
+                            "d1pat": {
+                             "D1Pid": {
+                              "token": {
+                               "tnode": {
+                                "IDENT_alp": "x0"
+                               }
+                              }
+                             }
+                            }
+                           },
+                           {
+                            "d1pat": {
+                             "D1Pid": {
+                              "token": {
+                               "tnode": {
+                                "IDENT_alp": "xs"
+                               }
+                              }
+                             }
+                            }
+                           }
+                          ]
+                         }
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "d1exp": {
+                     "D1Eapp1": {
+                      "d1exp": {
+                       "D1Elist": {
+                        "d1explst": [
+                         {
+                          "d1exp": {
+                           "D1Eapp1": {
+                            "d1exp": {
+                             "D1Elist": {
+                              "d1explst": [
+                               {
+                                "d1exp": {
+                                 "D1Eid": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "x0"
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         },
+                         {
+                          "d1exp": {
+                           "D1Eapp1": {
+                            "d1exp": {
+                             "D1Elist": {
+                              "d1explst": [
+                               {
+                                "d1exp": {
+                                 "D1Eid": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "xs"
+                                   }
+                                  }
+                                 }
+                                }
+                               },
+                               {
+                                "d1exp": {
+                                 "D1Eid": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "f0"
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         }
+                        ]
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "wths1expopt": {
+          "WTHS1EXPnone": {}
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Cfundecl": {
+     "token": {
+      "tnode": {
+       "FUN": {
+        "funkind": "FNKfn1"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "tq1arglst": [
+      {
+       "tq1arg": {
+        "TQ1ARGsome": {
+         "q1arglst": [
+          {
+           "q1arg": {
+            "Q1ARGsome": {
+             "token": {
+              "tnode": {
+               "IDENT_alp": "a"
+              }
+             },
+             "sort1opt": {
+              "sort1": {
+               "S1Tid": {
+                "symbol": "type"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      },
+      {
+       "tq1arg": {
+        "TQ1ARGsome": {
+         "q1arglst": [
+          {
+           "q1arg": {
+            "Q1ARGsome": {
+             "token": {
+              "tnode": {
+               "IDENT_alp": "b"
+              }
+             },
+             "sort1opt": {
+              "sort1": {
+               "S1Tid": {
+                "symbol": "type"
+               }
+              }
+             }
+            }
+           }
+          }
+         ]
+        }
+       }
+      }
+     ],
+     "f1undeclist": [
+      {
+       "f1undecl": {
+        "F1UNDECL": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map_optn"
+          }
+         },
+         "f1arglst": [
+          {
+           "f1arg": {
+            "F1ARGsome_dyn": {
+             "d1pat": {
+              "D1Plist1": {
+               "d1patlst": [
+                {
+                 "d1pat": {
+                  "D1Panno": {
+                   "d1pat": {
+                    "D1Pid": {
+                     "token": {
+                      "tnode": {
+                       "IDENT_alp": "xs"
+                      }
+                     }
+                    }
+                   },
+                   "s1exp": {
+                    "S1Eapp1": {
+                     "s1exp": {
+                      "S1Elist": {
+                       "s1explst": [
+                        {
+                         "s1exp": {
+                          "S1Eid": {
+                           "symbol": "a"
+                          }
+                         }
+                        }
+                       ]
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                },
+                {
+                 "d1pat": {
+                  "D1Panno": {
+                   "d1pat": {
+                    "D1Pid": {
+                     "token": {
+                      "tnode": {
+                       "IDENT_alp": "f0"
+                      }
+                     }
+                    }
+                   },
+                   "s1exp": {
+                    "S1Eapp2": {
+                     "s1exp": {
+                      "S1Eid": {
+                       "symbol": "b"
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         ],
+         "effs1expopt": {
+          "EFFS1EXPsome": {
+           "s1exp": {
+            "S1Eapp1": {
+             "s1exp": {
+              "S1Elist": {
+               "s1explst": [
+                {
+                 "s1exp": {
+                  "S1Eid": {
+                   "symbol": "b"
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            }
+           }
+          }
+         },
+         "d1expopt": {
+          "d1exp": {
+           "D1Elist": {
+            "d1explst": [
+             {
+              "d1exp": {
+               "D1Ecase": {
+                "knd": {
+                 "token": {
+                  "tnode": {
+                   "CASE": {
+                    "int": 1
+                   }
+                  }
+                 }
+                },
+                "d1exp": {
+                 "D1Eid": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "xs"
+                   }
+                  }
+                 }
+                },
+                "d1claulst": [
+                 {
+                  "d1clau": {
+                   "D1CLAUclau": {
+                    "d1gpat": {
+                     "D1GPATpat": {
+                      "d1pat": {
+                       "D1Papps": {
+                        "d1pat": {
+                         "D1Plist1": {
+                          "d1patlst": []
+                         }
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "d1exp": {
+                     "D1Eapp1": {
+                      "d1exp": {
+                       "D1Elist": {
+                        "d1explst": []
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d1clau": {
+                   "D1CLAUclau": {
+                    "d1gpat": {
+                     "D1GPATpat": {
+                      "d1pat": {
+                       "D1Papps": {
+                        "d1pat": {
+                         "D1Plist1": {
+                          "d1patlst": [
+                           {
+                            "d1pat": {
+                             "D1Pid": {
+                              "token": {
+                               "tnode": {
+                                "IDENT_alp": "x"
+                               }
+                              }
+                             }
+                            }
+                           }
+                          ]
+                         }
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "d1exp": {
+                     "D1Eapp1": {
+                      "d1exp": {
+                       "D1Elist": {
+                        "d1explst": [
+                         {
+                          "d1exp": {
+                           "D1Eapp1": {
+                            "d1exp": {
+                             "D1Elist": {
+                              "d1explst": [
+                               {
+                                "d1exp": {
+                                 "D1Eid": {
+                                  "token": {
+                                   "tnode": {
+                                    "IDENT_alp": "x"
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              ]
+                             }
+                            }
+                           }
+                          }
+                         }
+                        ]
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "wths1expopt": {
+          "WTHS1EXPnone": {}
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Csymload": {
+     "knd": {
+      "token": {
+       "tnode": "#SYMLOAD"
+      }
+     },
+     "s0ymb": {
+      "S0YMBi0dnt": {
+       "i0dnt": {
+        "I0DNTsome": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map"
+          }
+         }
+        }
+       }
+      }
+     },
+     "dq0eid": {
+      "DQ0EIDnone": {
+       "i0dnt": {
+        "I0DNTsome": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map_list"
+          }
+         }
+        }
+       }
+      }
+     },
+     "t0intopt": {}
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Csymload": {
+     "knd": {
+      "token": {
+       "tnode": "#SYMLOAD"
+      }
+     },
+     "s0ymb": {
+      "S0YMBi0dnt": {
+       "i0dnt": {
+        "I0DNTsome": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map"
+          }
+         }
+        }
+       }
+      }
+     },
+     "dq0eid": {
+      "DQ0EIDnone": {
+       "i0dnt": {
+        "I0DNTsome": {
+         "token": {
+          "tnode": {
+           "IDENT_alp": "map_optn"
+          }
+         }
+        }
+       }
+      }
+     },
+     "t0intopt": {}
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v1aldeclist": [
+      {
+       "v1aldecl": {
+        "V1ALDECL": {
+         "d1pat": {
+          "D1Pid": {
+           "token": {
+            "tnode": {
+             "IDENT_alp": "xs"
+            }
+           }
+          }
+         },
+         "d1expopt": {
+          "d1exp": {
+           "D1Eapp1": {
+            "d1exp": {
+             "D1Elist": {
+              "d1explst": [
+               {
+                "d1exp": {
+                 "D1Eint": {
+                  "token": {
+                   "tnode": {
+                    "INT1": "1"
+                   }
+                  }
+                 }
+                }
+               },
+               {
+                "d1exp": {
+                 "D1Eapp1": {
+                  "d1exp": {
+                   "D1Elist": {
+                    "d1explst": [
+                     {
+                      "d1exp": {
+                       "D1Eint": {
+                        "token": {
+                         "tnode": {
+                          "INT1": "2"
+                         }
+                        }
+                       }
+                      }
+                     },
+                     {
+                      "d1exp": {
+                       "D1Eapp1": {
+                        "d1exp": {
+                         "D1Elist": {
+                          "d1explst": []
+                         }
+                        }
+                       }
+                      }
+                     }
+                    ]
+                   }
+                  }
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          }
+         },
+         "wths1expopt": {
+          "WTHS1EXPnone": {}
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v1aldeclist": [
+      {
+       "v1aldecl": {
+        "V1ALDECL": {
+         "d1pat": {
+          "D1Pid": {
+           "token": {
+            "tnode": {
+             "IDENT_alp": "r0"
+            }
+           }
+          }
+         },
+         "d1expopt": {
+          "d1exp": {
+           "D1Eapp1": {
+            "d1exp": {
+             "D1Elist": {
+              "d1explst": [
+               {
+                "d1exp": {
+                 "D1Eid": {
+                  "token": {
+                   "tnode": {
+                    "IDENT_alp": "xs"
+                   }
+                  }
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          }
+         },
+         "wths1expopt": {
+          "WTHS1EXPnone": {}
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "d1ecl": {
+    "D1Cvaldecl": {
+     "token": {
+      "tnode": {
+       "VAL": {
+        "valkind": "VLKval"
+       }
+      }
+     },
+     "decmodopt": {
+      "DECOMODnone": {}
+     },
+     "v1aldeclist": [
+      {
+       "v1aldecl": {
+        "V1ALDECL": {
+         "d1pat": {
+          "D1Pid": {
+           "token": {
+            "tnode": {
+             "IDENT_alp": "r1"
+            }
+           }
+          }
+         },
+         "d1expopt": {
+          "d1exp": {
+           "D1Ewhere": {
+            "d1exp": {
+             "D1Eapp1": {
+              "d1exp": {
+               "D1Elist": {
+                "d1explst": [
+                 {
+                  "d1exp": {
+                   "D1Eid": {
+                    "token": {
+                     "tnode": {
+                      "IDENT_alp": "r0"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "d1exp": {
+                   "D1Eid": {
+                    "token": {
+                     "tnode": {
+                      "IDENT_alp": "res"
+                     }
+                    }
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            },
+            "d1eclist": [
+             {
+              "d1ecl": {
+               "D1Cvaldecl": {
+                "token": {
+                 "tnode": {
+                  "VAL": {
+                   "valkind": "VLKval"
+                  }
+                 }
+                },
+                "decmodopt": {
+                 "DECOMODnone": {}
+                },
+                "v1aldeclist": [
+                 {
+                  "v1aldecl": {
+                   "V1ALDECL": {
+                    "d1pat": {
+                     "D1Pid": {
+                      "token": {
+                       "tnode": {
+                        "IDENT_alp": "res"
+                       }
+                      }
+                     }
+                    },
+                    "d1expopt": {
+                     "d1exp": {
+                      "D1Elam": {
+                       "knd": {
+                        "token": {
+                         "tnode": {
+                          "LAM": {
+                           "int": 0
+                          }
+                         }
+                        }
+                       },
+                       "f1arglst": [
+                        {
+                         "f1arg": {
+                          "F1ARGsome_dyn": {
+                           "d1pat": {
+                            "D1Plist1": {
+                             "d1patlst": [
+                              {
+                               "d1pat": {
+                                "D1Pid": {
+                                 "token": {
+                                  "tnode": {
+                                   "IDENT_alp": "k"
+                                  }
+                                 }
+                                }
+                               }
+                              }
+                             ]
+                            }
+                           }
+                          }
+                         }
+                        }
+                       ],
+                       "effs1expopt": {
+                        "EFFS1EXPnone": {}
+                       },
+                       "f1unarrow": {
+                        "F1UNARROWdflt": {}
+                       },
+                       "d1exp": {
+                        "D1Eapp1": {
+                         "d1exp": {
+                          "D1Elist": {
+                           "d1explst": [
+                            {
+                             "d1exp": {
+                              "D1Eid": {
+                               "token": {
+                                "tnode": {
+                                 "IDENT_alp": "k"
+                                }
+                               }
+                              }
+                             }
+                            },
+                            {
+                             "d1exp": {
+                              "D1Elam": {
+                               "knd": {
+                                "token": {
+                                 "tnode": {
+                                  "LAM": {
+                                   "int": 0
+                                  }
+                                 }
+                                }
+                               },
+                               "f1arglst": [
+                                {
+                                 "f1arg": {
+                                  "F1ARGsome_dyn": {
+                                   "d1pat": {
+                                    "D1Plist1": {
+                                     "d1patlst": [
+                                      {
+                                       "d1pat": {
+                                        "D1Pid": {
+                                         "token": {
+                                          "tnode": {
+                                           "IDENT_alp": "x"
+                                          }
+                                         }
+                                        }
+                                       }
+                                      }
+                                     ]
+                                    }
+                                   }
+                                  }
+                                 }
+                                }
+                               ],
+                               "effs1expopt": {
+                                "EFFS1EXPnone": {}
+                               },
+                               "f1unarrow": {
+                                "F1UNARROWdflt": {}
+                               },
+                               "d1exp": {
+                                "D1Eif0": {
+                                 "d1exp": {
+                                  "D1Eid": {
+                                   "token": {
+                                    "tnode": {
+                                     "IDENT_alp": "true"
+                                    }
+                                   }
+                                  }
+                                 },
+                                 "d1expopt": {
+                                  "d1exp": {
+                                   "D1Eid": {
+                                    "token": {
+                                     "tnode": {
+                                      "IDENT_alp": "false"
+                                     }
+                                    }
+                                   }
+                                  }
+                                 }
+                                }
+                               }
+                              }
+                             }
+                            }
+                           ]
+                          }
+                         }
+                        }
+                       }
+                      }
+                     }
+                    },
+                    "wths1expopt": {
+                     "WTHS1EXPnone": {}
+                    }
+                   }
+                  }
+                 }
+                ]
+               }
+              }
+             }
+            ]
+           }
+          }
+         },
+         "wths1expopt": {
+          "WTHS1EXPnone": {}
+         }
+        }
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
