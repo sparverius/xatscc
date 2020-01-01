@@ -1,12 +1,24 @@
 [submodule "xjsonize"]
 	path = xjsonize
 	url = git@github.com:sparverius/xjsonize.git
-	branch = xatscc
+	branch = cc
 [submodule "xanadu"]
 	path = xanadu
 	url = git@github.com:sparverius/xanadu.git
-	branch = xatscc
+	branch = cc
 [submodule "xinterp"]
 	path = xinterp
 	url = git@github.com:sparverius/xinterp.git
-	branch = xatscc
+	branch = cc
+[submodule "xnameof"]
+	path = xnameof
+	url = https://github.com/sparverius/xnameof.git
+	branch = cc
+[submodule "xargsof"]
+	path = xargsof
+	url = https://github.com/sparverius/xargsof.git
+	branch = cc
+[submodule "xschema"]
+	path = xschema
+	url = https://github.com/sparverius/xschema.git
+	branch = cc
