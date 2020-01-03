@@ -9,7 +9,7 @@ XARGSOFQ=./xargsof
 XSCHEMAQ=./xschema
 
 
-all: xatsopt xnameof xargsof xjsonize cp_bin
+all: xatsopt xnameof xargsof xjsonize xinterp cp_bin
 
 
 xatsopt::
@@ -20,16 +20,16 @@ xargsof::
 	make -C $(XARGSOFQ) all libxargsof
 xjsonize::
 	make -C $(XJSONIZEQ) all libxjsonize
-# xinterp::
-# 	make -C $(XINTERPQ) all
+xinterp::
+	make -C $(XINTERPQ) all
 
 
 cp_bin::
 	cp $(XATSQ)/xatsopt ./bin
 cp_bin::
 	cp $(XJSONIZEQ)/bin/xjsonize ./bin
-# cp_bin::
-# 	cp $(XINTERPQ)/bin/xinterp ./bin
+cp_bin::
+	cp $(XINTERPQ)/bin/xinterp ./bin
 
 
 all_aux: xschema cp_bin_aux
