@@ -41,8 +41,8 @@ cp_bin_aux::
 	cp $(XSCHEMAQ)/bin/xschema ./bin
 
 
-clean::
-	make -C $(XATSQ) clean
+# clean::
+# 	make -C $(XATSQ) clean
 clean::
 	make -C $(XJSONIZEQ) clean
 clean::
@@ -55,8 +55,8 @@ clean::
 	make -C $(XSCHEMAQ) clean
 
 
-cleanall::
-	make -C $(XATSQ) cleanall
+# cleanall::
+# 	make -C $(XATSQ) cleanall
 cleanall::
 	make -C $(XJSONIZEQ) cleanall
 cleanall::
@@ -68,8 +68,8 @@ cleanall::
 cleanall::
 	make -C $(XSCHEMAQ) cleanall
 
-cleanall::
-	rm -f ./bin/xatsopt
+# cleanall::
+# 	rm -f ./bin/xatsopt
 cleanall::
 	rm -f ./bin/xjsonize
 cleanall::
